@@ -16,7 +16,7 @@ llamadaAApi
                     src= ${character[i].image} 
                     alt="character imagen"
                 />
-                <h2>${character[i].name}</h2>
+                <h3>${character[i].name}</h3>
                 <p>Gender: ${character[i].gender}</p> 
                 <p>Species: ${character[i].species}</p>
                 <p>Origin: ${character[i].origin.name}

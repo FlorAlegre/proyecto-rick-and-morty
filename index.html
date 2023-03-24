@@ -10,10 +10,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
-    <title>Rick and Morty Final Proyect</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Roboto+Mono&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+
     <header>
 
         <!-- Menu-->
@@ -32,6 +37,9 @@
             <h1>Rick and Morty</h1>
             <h3>Wubba lubba</h3>
             <h3>Dub Dub!</h3>
+            <!--particulas-->
+            <script src="Assest/particles/particles.min.js"></script>
+            <script src="Assest/particles/app-particles.js"></script>
         </section>
         <section class="cont-summary">
             <h2><a name="summary">Summary</a></h2>
@@ -42,10 +50,13 @@
                 school, and Morty, the youngest child and a boy, is an anxious, quiet, and sweet kid. Rick makes Morty
                 his sidekick and takes him on hilarious Interdimensional adventures, causing poor Morty to become
                 steadily more miserable due to Rick's insane, abusive, and careless additude.</p>
-            <h3>Trailer</h3>
-            <iframe src="https://www.youtube.com/embed/P9WZhGMlDBE" title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
+
+            <div class="video">
+                <iframe width="700" height="400" src="https://www.youtube.com/embed/P9WZhGMlDBE"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
 
         </section>
         <section class="cont-characters">
@@ -55,51 +66,49 @@
         <section class="cont-facts">
             <h2><a name="facts">Facts About Rick And Morty You May Not Know</a></h2>
             <ul>
-                <li>
+                <li class="list-facts">
                     <p>The pilot was written in just a few hours</p>
                     <img src="Assest/facts/1.jpg" alt="rick opens morty's eyes">
                 </li>
-                <li>
+                <li class="list-facts">
                     <p>Rick's catchphrase was a complete accident</p>
                     <img src="Assest/facts/2.jpg" alt="rick">
                 </li>
-                <li>
+                <li class="list-facts">
                     <p>Rick's signature burps were an accident, too</p>
                     <img src="Assest/facts/3.jpg" alt="rick erupting">
                 </li>
-                <li>
+                <li class="list-facts">
                     <p>Rick and Morty's dynamic is a representation of mental illness</p>
                     <img src="Assest/facts/5.jpg" alt="rick and morty">
                 </li>
-                <li>
-                    <a href="https://www.thefactsite.com/rick-and-morty-facts/">Read more here</a>
+                <li class="list-facts">
+                    <p><a href="https://www.thefactsite.com/rick-and-morty-facts/" target="_blank">Read more here</a>
+                    </p>
                 </li>
             </ul>
         </section>
         <section class="cont-whatch">
             <h2><a name="watch">Watch the show</a></h2>
-            <a href="https://www.hbomax.com/ar/es/series/urn:hbo:series:GXkRjxwjR68PDwwEAABKJ" target="_blank"><img
-                    src="Assest/plataformas/hbomax.png" alt="hbo max icon"></a>
+            <a href="https://www.hbomax.com/ar/es/series/urn:hbo:series:GXkRjxwjR68PDwwEAABKJ" target="_blank"><img src="Assest/plataformas/hbomax-white-logo.png" alt="hbo max icon"></a>
+            <div class="imdb">
+                <a href="https://www.imdb.com/title/tt2861424/" target="_blank" ><img src="Assest/plataformas/imdblogo.png" alt="imdb icon"></a>
+            </div>
         </section>
     </main>
     <footer>
         <article>
-            <section>
-                <p>Devoloped by Flor Alegre</p>
-                <a href="https://www.instagram.com/floralegre/" target="_blank"><img src="Assest/plataformas/ig.png"
-                        alt="instagram"></a>
+            <section class="social">
+                <a href="https://www.instagram.com/floralegre/" target="_blank"><img src="Assest/plataformas/ig.png" alt="instagram"></a>
                 <p>linkedin </p>
             </section>
-            <section>
+            <section class="course">
+                <p>Devoloped by Flor Alegre</p>
                 <p>Final Proyect Front End</p>
+                <p>Silicon Misiones-UTN</p>
             </section>
         </article>
-
-
     </footer>
-    
     <script src="app.js"></script>
-   
 </body>
-
 </html>
