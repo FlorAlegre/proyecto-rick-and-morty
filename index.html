@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--tipografia google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
     <title>Rick and Morty Final Proyect</title>
 </head>
@@ -12,10 +16,8 @@
 <body>
     <header>
 
-        <!-- Logo-->
-        <img src="Assest/Logo/Rick-And-Morty-PNG-Images.png" alt="Rick and Morty leaving a portal ">
         <!-- Menu-->
-        <nav>
+        <nav class="menu">
             <ul>
                 <li><a href="#summary">Summary</a></li>
                 <li><a href="#characters">Characters</a></li>
@@ -23,6 +25,7 @@
                 <li><a href="#watch">Watch the show</a></li>
             </ul>
         </nav>
+
     </header>
     <main>
         <section class="cont-start">
@@ -46,7 +49,8 @@
 
         </section>
         <section class="cont-characters">
-            <h2><a name="characters">Characters</a></h2>
+            <h2 class="charact"><a name="characters">Characters</a></h2>
+            <div id="container"></div>
         </section>
         <section class="cont-facts">
             <h2><a name="facts">Facts About Rick And Morty You May Not Know</a></h2>
@@ -82,7 +86,8 @@
         <article>
             <section>
                 <p>Devoloped by Flor Alegre</p>
-                <a href="https://www.instagram.com/floralegre/" target="_blank"><img src="Assest/plataformas/ig.png" alt="instagram"></a>
+                <a href="https://www.instagram.com/floralegre/" target="_blank"><img src="Assest/plataformas/ig.png"
+                        alt="instagram"></a>
                 <p>linkedin </p>
             </section>
             <section>
@@ -92,7 +97,9 @@
 
 
     </footer>
+    
     <script src="app.js"></script>
+   
 </body>
 
 </html>
