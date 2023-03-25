@@ -67,11 +67,11 @@ a{
     padding: 20px;
 } 
 @font-face {
-    font-family: 'get_schwifty';
-    src: local('get_schwifty.tff') format(truetype);
+    font-family: "get_schwifty";
+    src: url("Assest/tipografia/get_schwifty.ttf");
 } 
 h1{
-    font-family: get_schwifty;
+    font-family: Get Schwifty;
     font-size: 50px;
     color: rgb(17,176,200);
     text-shadow: -2px -2px 1px rgba(187,218,64,1), 2px -2px 1px rgba(187,218,64,1), -2px 2px 1px rgba(187,218,64,1), 2px -2px 1px rgba(187,218,64,1);
@@ -328,4 +328,3 @@ article{
     font-size: 10px;
     }
 }
-
