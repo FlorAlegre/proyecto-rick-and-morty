@@ -299,8 +299,8 @@ article{
         font-size: 20px;
     }
     .star img{
-        width: 400px;
-        height: 600px;
+        width: 300px;
+        height: 400px;
         margin: 10px;
         padding: 20px;
     } 
@@ -327,4 +327,17 @@ article{
     .social p, .course{
     font-size: 10px;
     }
+    .fact{
+        width: 450px;
+        height: 500px;
+    }
+    fact h4, .fact h4 a{
+        font-size: 10px;
+        padding: 0;
+    }
+    .fact img{
+        width: 100%;
+        height: 80%;
+        
+    } 
 }
