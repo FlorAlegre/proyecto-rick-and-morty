@@ -280,17 +280,18 @@ article{
 .ig{
     width: 70px;
     height: 70px;
-    margin: 10px;
+    margin: 20px;
+
 }
 .github{
     width: 60px;
     height: 60px;
-    margin: 10px;
+    margin: 20px;
 }
 .lk{
     width: 70px;
     height: 70px;
-    margin: 10px;
+    margin: 20px;
 }
 @media(max-width:500px){
     
