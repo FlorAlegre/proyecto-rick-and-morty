@@ -102,18 +102,11 @@ header, main {
     max-width: 50%;
     max-height: 50%;
 }
-.menu ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1.5rem;
-    
-}
+
 .menu ul li{
     list-style: none;
     font-family: 'Delicious Handrawn', cursive;;
-    font-size: 2rem;
-   
+    font-size: 1.5rem;
    }
 a{
     text-decoration: none;
@@ -177,6 +170,13 @@ footer{
     footer p {
         font-size: 1.5rem;
     }
+    .menu ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1.5rem;
+        
+    }
 
 }
 
@@ -196,6 +196,13 @@ footer{
 
     footer p {
         font-size: 2rem;
+    }
+    .menu ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1.5rem;
+        
     }
 }
 
