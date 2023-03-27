@@ -1,28 +1,24 @@
-
-const llamadaAApi = fetch("https://rickandmortyapi.com/api/character");
+const API_CHARACTERS = "https://rickandmortyapi.com/api/character";
+const llamadaAApi = fetch(API_CHARACTERS);
 
 llamadaAApi
-    .then( (data)=> {
-     return data.json();
+    .then((data) => {
+        return data.json();
     })
-    .then((data)=>{
+    .then((data) => {
         const $container = document.getElementById("container");
-        const character = data.results;
-        console.log(character[0]);
-        for(let i = 0; i < character.length; i++) {
+        const characters = data.results;
+        for (let i = 0; i < characters.length; i++) {
             $container.innerHTML += `
-            <div class="item-grid">
-                <img 
-                    src= ${character[i].image} 
-                    alt="character imagen"
-                />
-                <h3>${character[i].name}</h3>
-                <p>Gender: ${character[i].gender}</p> 
-                <p>Species: ${character[i].species}</p>
-                <p>Origin: ${character[i].origin.name}
-                <p>Status: ${character[i].status}</p>
-                
-            </div>
+                <div class="card">
+                    <img src=${characters[i].image} alt="Character image."/>
+                    <strong>${characters[i].name}</strong>
+                    <p>Gender: ${(characters[i].gender)}</p>
+                    <p>Species: ${(characters[i].species)}</p>
+                    <p>Status: ${(characters[i].status)}</p>
+                    <p>Origin: </p>
+                    <p>${(characters[i].origin.name)}</p>
+                </div>
             `;
         }
     })
