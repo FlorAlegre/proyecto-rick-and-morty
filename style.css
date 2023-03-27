@@ -137,9 +137,6 @@ footer{
     justify-content: space-evenly;
 }
 
-.social{
-    display: flex;
-}
 .p-footer {
     text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em white;
     font-size: 1rem;
