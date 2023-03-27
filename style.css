@@ -104,9 +104,9 @@ header, main {
 }
 .menu ul{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
     
 }
 .menu ul li{
@@ -136,7 +136,12 @@ footer{
     align-items: center;
     justify-content: space-evenly;
 }
-
+footer{
+    flex-direction: column;
+}
+.social{
+    display: flex;
+}
 .p-footer {
     text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em white;
     font-size: 1rem;
