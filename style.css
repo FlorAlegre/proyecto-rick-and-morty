@@ -22,17 +22,19 @@ h1, .a-start{
 }
 h2{
     font-family: 'Delicious Handrawn', cursive;
-    font-size: 50px;
+    font-size: 3rem;
+    color: azure;
     margin-bottom: 1rem;
 }
 
 h3{
     font-family: 'Roboto Mono', monospace;
-    margin: 1rem;
 }
 h4{
     margin: 1rem;
 }
+
+
 header,
 main,
 footer,
@@ -99,7 +101,6 @@ header, main {
 .start-icon{
     max-width: 50%;
     max-height: 50%;
-    
 }
 .menu ul{
     display: flex;
@@ -116,19 +117,19 @@ header, main {
    }
 a{
     text-decoration: none;
-    color: white;
-    text-shadow: 1px 1px 2px black, 0 0 1em gray, 0 0 0.2em gray;
+    color: azure;
 }
 .go{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
 }
 .imdb img, .hbo img{
-    width: 40%;
-    height: 40%;
+    width: 8rem;
+    height: 5rem;
     border: none;  
     border-radius: 0%;  
+    margin: 3rem;
 }
 footer{
     display: flex;
@@ -144,20 +145,20 @@ footer{
     font-size: 1rem;
 }
 .ig{
-    width: 70px;
-    height: 70px;
-    margin: 20px;
+    width: 3rem;
+    height: 3rem;
+    margin: 5rem;
 
 }
 .github{
-    width: 60px;
-    height: 60px;
-    margin: 20px;
+    width: 3rem;
+    height: 3rem;
+    margin: 5rem;
 }
 .lk{
-    width: 70px;
-    height: 70px;
-    margin: 20px;
+    width: 3rem;
+    height: 3rem;
+    margin: 5rem;
 }
 
 /* Tablets */
